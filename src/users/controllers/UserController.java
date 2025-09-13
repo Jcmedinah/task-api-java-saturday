@@ -12,6 +12,6 @@ public class UserController {
     }
 
     public boolean signIn(String email, String password){
-        return this.useCases.signIn(this.email, this.password); // call method signIn
+        return this.useCases.signIn(email, password); // call method signIn
     }
 }

@@ -1,6 +1,8 @@
 package users.useCases;
 
 import users.models.User;
+import java.util.List;
+import java.util.ArrayList;
 
 public class UserUseCase{
 
